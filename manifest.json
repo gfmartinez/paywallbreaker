@@ -1,0 +1,27 @@
+{
+  "name": "Breaking the Paywall",
+  "version": "1.0",
+  "description": "Break paywalls for fun",
+  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "options_page": "options.html",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/pw_16.png",
+      "32": "images/pw_32.png",
+      "48": "images/pw_48.png",
+      "128": "images/pw_128.png"
+    }
+  },
+  "icons": {
+    "16": "images/pw_16.png",
+    "32": "images/pw_32.png",
+    "48": "images/pw_48.png",
+    "128": "images/pw_128.png"
+  },
+  "manifest_version": 2
+}
