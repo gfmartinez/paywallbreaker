@@ -1,6 +1,6 @@
 # PaywallBreaker
 
-##To get it working:
+## To get it working:
 
 1. Clone repo or download files and extract
 
